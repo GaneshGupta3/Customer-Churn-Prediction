@@ -6,6 +6,19 @@ A responsive and easy-to-use **Streamlit web application** that predicts the lik
 
 ---
 
+## 🕸️ Model Architecture
+
+The **Artificial Neural Network (ANN)** used for churn prediction consists of:
+
+- **Input Layer**: Receives 11 features after encoding and scaling.
+- **Hidden Layer 1**: Dense layer with ReLU activation.
+- **Hidden Layer 2**: Dense layer with ReLU activation.
+- **Output Layer**: Dense layer with a sigmoid activation to output churn probability between 0 and 1.
+
+> 🔧 The model was trained using the **binary cross-entropy** loss function and the **Adam optimizer**.
+
+---
+
 ## 🔍 What is Customer Churn?
 
 **Customer churn** refers to the percentage of customers who stop using a company’s service during a certain time frame. By predicting churn, businesses can take proactive steps to retain high-risk customers and improve satisfaction.
